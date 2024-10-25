@@ -22,7 +22,7 @@ int main() {
     // Структура с адресом (сервер)
     sockaddr_in remoteAddr{};
     remoteAddr.sin_family = AF_INET;
-    remoteAddr.sin_port = htons(12345); // Используйте нужный порт сервера
+    remoteAddr.sin_port = htons(13); // Используйте нужный порт сервера
     remoteAddr.sin_addr.s_addr = inet_addr("172.16.40.1"); // IP-адрес сервера
 
     // Буфер обмена для передачи и приема данных
